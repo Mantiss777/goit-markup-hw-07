@@ -1,0 +1,71 @@
+
+/*===============================
+		Footer 
+=================================*/
+
+.footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	background-color: var(--accent-bg-color);
+	
+
+}
+
+.footer__container {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.address {
+	margin-bottom: 9px;
+	font-style: normal;
+	color: var(--wite-color);
+}
+
+.contact__list--footer{
+	display: block;
+}
+
+.contact__data--footer {
+	justify-content: flex-start;
+	padding: 0;
+	margin-bottom: 9px; 
+	font-weight: 400;
+	line-height: 1.71;
+
+	color: var(--contact-link-color);
+	
+}
+
+
+.footer__title {
+	color: var(--wite-color);
+}
+
+
+/*===============================
+		Join in
+=================================*/
+
+
+
+.footer__social-wrap {
+	margin-left: 70px;
+}
+
+.social__list--footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.social__link--footer {
+	margin-right: 10px;
+
+	color: var(--wite-color);
+	background-color: var(--icon-bg);
+
+}
+
+
+// end ---- Footer  --- end
