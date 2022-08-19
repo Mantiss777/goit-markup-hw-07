@@ -58,4 +58,34 @@
 }
 
 
+
+
+// --- contact in footer  ---- 
+
+.address {
+	margin-bottom: 9px;
+	font-style: normal;
+	color: var(--wite-color);
+}
+
+.contact__list--footer{
+	display: block;
+}
+
+.contact__data--footer {
+	justify-content: flex-start;
+	padding: 0;
+	margin-bottom: 9px; 
+	font-weight: 400;
+	line-height: 1.71;
+
+	color: var(--contact-link-color);
+	
+}
+
+
+
+
+
+
 // end  --- contact  ---- end

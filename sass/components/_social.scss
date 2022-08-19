@@ -46,4 +46,30 @@
 	fill: currentColor;
 }
 
+
+
+/*===============================
+		--- social link in footer  ---
+=================================*/
+
+
+
+.social__wrap--footer {
+	margin-left: 70px;
+}
+
+.social__list--footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.social__link--footer {
+	margin-right: 10px;
+
+	color: var(--wite-color);
+	background-color: var(--icon-bg);
+
+}
+
+
 // end --- social link  --- end

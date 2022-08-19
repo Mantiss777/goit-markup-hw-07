@@ -18,7 +18,21 @@ body {
 .section {
 	padding-top: 94px;
 	padding-bottom: 94px;
+
+	&__title {
+		margin-top: 0;
+		margin-bottom: 50px;
+
+		font-size: 36px;
+		line-height: 1.17;
+		text-align: center;
+
+		color: var(--title-text-color);
+
 }
+
+}
+
 
 .container {
 	width: 1200px;
@@ -33,23 +47,14 @@ body {
 		main titles основні заголовки 
 ==========================================*/
 
-.section__title {
-	margin-top: 0;
-	margin-bottom: 50px;
 
-	font-size: 36px;
-	line-height: 1.17;
-	text-align: center;
+// повиносити в окремі блоки
 
-	color: var(--title-text-color);
-
-}
-
-
-.section__list {
+.section_list {
 	display: flex;
 	justify-content: space-between;
 }
+
 
 
 

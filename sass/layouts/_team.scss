@@ -3,7 +3,13 @@
 =================================*/
 
 .team {
+	padding-top: 0;
 	background-color: var(--secondery-bg-color);
+
+		&__list {
+			display: flex;
+			justify-content: space-between;
+		}
 
 		&__member {
 		background-color: var(--primary-bg-color);
@@ -38,6 +44,7 @@
 			text-align: center;
 }
 }
+
 
 
 
